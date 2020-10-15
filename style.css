@@ -1,0 +1,165 @@
+/* Fonts */
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/gilroy/Gilroy-Bold.eot"),
+    url("/fonts/gilroy/Gilroy-Bold.woff2");
+}
+p {
+  margin: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.nav {
+  font-family: "Gilroy";
+  padding-top: 35px;
+  align-items: baseline;
+  justify-content: space-around;
+  font-size: 14px;
+}
+/* Header__navbar */
+.header__nav {
+  display: flex;
+}
+
+.header__logo__img {
+  margin-right: 15px;
+}
+
+.header__logo__text span {
+  color: #00b107;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+}
+.header__logo__text p {
+  color: #a0a0a0;
+}
+.header__navbar {
+}
+.header__navbar__ul {
+  display: flex;
+}
+.header__navbar__ul li {
+  list-style: none;
+  margin-right: 31px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 17px;
+}
+.header__navbar__ul li a {
+  color: black;
+  text-decoration: none;
+}
+.header__navbar__ul li a.active {
+  color: #00b107;
+  padding-left: 20px;
+}
+
+/* Header__clock */
+
+.header__clock p {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 17px;
+}
+.header__clock__logo {
+  display: flex;
+}
+.header__clock__logo span {
+  padding-right: 8px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 25px;
+}
+.header__clock__text {
+  text-align: end;
+}
+/* Header__Phone */
+.header__phone p {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 17px;
+}
+.header__phone__logo {
+  display: flex;
+}
+.header__phone__logo span {
+  padding-left: 8px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 25px;
+}
+.header__phone__text {
+  text-align: end;
+}
+
+/*Section - Info */
+.info__section {
+  display: flex;
+  margin-top: 60px;
+}
+
+/* Info - text */
+.info__section__text {
+  z-index: 1;
+}
+.info__section__text__title h2 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 70px;
+  letter-spacing: -2px;
+}
+.info__section__text__body p:nth-child(1) {
+  margin-top: 50px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -1px;
+}
+.info__section__text__body p:nth-child(2) {
+  font-family: "Gilroy";
+  margin-top: 35px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -1px;
+}
+/* Info - Image */
+.info__section__image {
+  position: absolute;
+  top: 63px;
+  right: 15px;
+}
+.info__section__image img {
+  width: 90%;
+}
+
+/* Info-button */
+.info__section__text__button {
+  margin-top: 85px;
+}
+.info__section__text__button button {
+  padding: 10px 60px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  background: #fcd95a;
+}
