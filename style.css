@@ -914,10 +914,7 @@ footer {
   .header__phone{
     display: none;
   }
-  .shipping__detox__image {
-    text-align: center;
-    margin: auto;
-}
+  
   .menu-none-detox{
     display: grid;
   grid-template-columns: repeat(3, 1fr);
