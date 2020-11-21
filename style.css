@@ -12,6 +12,10 @@ p {
   padding: 0;
   color: black;
 }
+.shipping__detox__image {
+    text-align: center;
+    margin: auto;
+}
 
 .nav {
   font-family: "Gilroy";
