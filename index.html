@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Detox</title>
@@ -78,7 +80,8 @@
         </div>
       </div>
     </header>
-    <section>
+    <section id="header-bg">
+      <img src="./img/header-bg.png" class="header-bg" alt="">
       <div class="info__section">
 
         <div class="info__section__text">
@@ -121,7 +124,8 @@
       </div>
     </section>
 
-    <section>
+    <section id="info-section">
+      <img src="./img/program-bg.png" class="info-section-bg" alt="">
       <div class="info__detox__section">
         <div class="info__detox__section__title">
           <h3 class="h3">Что такое детокс программа?</h3>
@@ -208,129 +212,96 @@
       </div>
     </section>
 
-    <section>
-      <div class="by__detox">
-        <h3 class="h3">Заказать Детокс</h3>
-        <div class="by__detox__flex">
-          <div class="by__detox__right detox-block">
-            <div class="by__detox__body__top">
-              <div class="by__detox__body__card">
-                <img src="./img/by__card.png" alt="">
-              </div>
-              <div class="by__detox__body__card">
-                <img src="./img/by__card-2.png" alt="">
-              </div>
-              <div class="by__detox__body__card">
-                <img src="./img/by__card-3.png" alt="">
-              </div>
-            </div>
-            <div class="by__detox__body__bottom">
-              <div class="by__detox__form">
 
-
-                <div class="by__detox__input">
-                  <div class="by__detox__input__name">
-                    <label for="name">ваше имя</label>
-                    <input type="text" name="name" id="detox__input__name" placeholder="Введите Ваше имя">
-                  </div>
-                  <div class="by__detox__input__name">
-                    <label for="phone">номер телефона</label>
-                    <input type="tel" name="phone" id="detox__input__phone" placeholder="+7(___)___-__-__" value="+7">
-                  </div>
-                </div>
-
-                <div class=" info__section__text__button detox-block">
-                  <button type="button" class="btn btn-lg">Сделать заказ</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="by__detox__left">
-            <div class="by__detox__image slider">
-              <div class="slider_item">
-                <img src="./img/by__slider-2.png" alt="">
-              </div>
-              <div class="slider_item">
-                <img src="./img/by__slider-2.png" alt="">
-              </div>
-              <div class="slider_item">
-                <img src="./img/by__slider-2.png" alt="">
+    <section id="by-detox">
+      <h3 class="h3">Заказать Детокс</h3>
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <div class="detox-form-by-left">
+            <div class="slider">
+              <div class="next-prev">
+                <span id="prev"><i class="fas fa-chevron-left"></i></span>
+                <img id="img" src="./img/by__slider-2.png" alt="">
+                <img id="img" src="./img/by__slider-3.png" alt="">
+                <img id="img" src="./img/by__slider-4.png" alt="">
+                <img id="img" src="./img/by__slider-5.png" alt="">
+                <img id="img" src="./img/by__slider-6.png" alt="">
+                <img id="img" src="./img/by__slider-7.png" alt="">
+                <img id="img" src="./img/by__slider-8.png" alt="">
+                <img id="img" src="./img/by__slider-9.png" alt="">
+                <img id="img" src="./img/by__slider-10.png" alt="">
+                <img id="img" src="./img/by__slider-11.png" alt="">
+                <span id="next"><i class="fas fa-chevron-right"></i></span>
               </div>
 
-              <div class="prev__slider">
-                <a href="#" class="prev"><span class="material-icons _size__style">
-                    chevron_left
-                  </span></a>
-              </div>
-              <div class="next__slider"><a href="#" class="next"><span class="material-icons _size__style">
-                    chevron_right
-                  </span></a>
-              </div>
               <p>Наши детокс-программы помогут организму запустить внутренние ресурсы очищения и восстановления</p>
-              <div class=" info__section__text__button detox-none">
-                <button type="button" class="btn btn-lg">Сделать заказ</button>
-              </div>
             </div>
-
           </div>
-          <div class="by__detox__right">
-            <div class="by__detox__body__top">
-              <div class="by__detox__body__card">
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <div class="row">
+            <div class="col-md-12 d-flex">
+              <div class="img-content">
                 <img src="./img/by__card.png" alt="">
               </div>
-              <div class="by__detox__body__card">
-                <img src="./img/by__card-2.png" alt="">
+              <div class="img-content">
+                <img src="./img/by__card.png" alt="">
               </div>
-              <div class="by__detox__body__card">
-                <img src="./img/by__card-3.png" alt="">
+              <div class="img-content">
+                <img src="./img/by__card.png" alt="">
               </div>
             </div>
-            <div class="by__detox__body__bottom">
-              <div class="by__detox__form">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="col">
 
+                  <form action="#" id="form-Submit">
 
-                <div class="by__detox__input">
-                  <div class="by__detox__input__name">
-                    <label for="name">ваше имя</label>
-                    <input type="text" name="name" id="detox__input__name" placeholder="Введите Ваше имя">
-                  </div>
-                  <div class="by__detox__input__name">
-                    <label for="phone">номер телефона</label>
-                    <input type="tel" name="phone" id="detox__input__phone" placeholder="+7(___)___-__-__" value="+7">
-                  </div>
-                </div>
-
-                <div class=" info__section__text__button">
-                  <button type="button" class="btn btn-lg">Сделать заказ</button>
+                    <div class="row">
+                      <div class="col">
+                        <label>ваше имя</label>
+                        <input id="name" name="name" type="text" class="form-control" placeholder="Введите Ваше имя">
+                      </div>
+                      <div class="col">
+                        <label>номер телефона</label>
+                        <input id="phone" name="phone" type="tel" class="form-control" placeholder="+7(___)___-__-__">
+                      </div>
+                    </div>
+                    <div id="detox-button">
+                      <button id="btn-sumbit" type="submit" class="btn btn-warning">Сделать заказ</button>
+                    </div>
+                  </form>
                 </div>
               </div>
+
+
+
+
             </div>
           </div>
-
-
 
         </div>
-
-
-
       </div>
+
     </section>
 
     <section>
+
       <div class="our__ingredient">
+
         <h3 class="h3">Наши ингридиенты</h3>
         <div class="our__ingredient__flex">
           <div class="our__ingredient__image">
             <img src="./img/ingredient.png" alt="">
-            <p>Отборные орехи</p>
+            <p>Свежая зелень</p>
           </div>
           <div class="our__ingredient__image">
             <img src="./img/ingredient-2.png" alt="">
-            <p>Сочные ягоды</p>
+            <p>Отборные овощи</p>
           </div>
           <div class="our__ingredient__image">
             <img src="./img/ingredient-3.png" alt="">
-            <p>Свежая зелень</p>
+            <p>Сочные фрукты</p>
           </div>
         </div>
       </div>
@@ -338,7 +309,7 @@
 
     <section>
       <div class="instagram__detox">
-        <h3>Наши инстаграм</р>
+        <h3>Наш инстаграм</р>
           <div class="detox__gallery__instagram">
             <div class="detox__image__gallery">
               <img src="./img/instagram-3.png" alt="">
@@ -363,7 +334,8 @@
 
     <section>
       <div class="shipping__detox">
-        <img src="./img/shipping__bg.png" class="shipping__detox_bg" alt="">
+        <img class="shipping__detox_bg" src="./img/instagram-bg.png" alt="">
+
         <h3 class="h3">Доставка и оплата</h3>
         <div class="shipping__detox__flex">
           <div class="shipping__detox__image">
@@ -395,44 +367,44 @@
       </div>
     </section>
 
-    <section>
+    <section id="review-bg">
       <div class="reviews__detox">
         <h3 class="h3">Отзывы</h3>
         <div class="reviews__detox__body">
-          <div class="reviews__detox__body__name">
-            <img src="./img/avatar.png" alt="">
-            <p>@ Тима</p>
-          </div>
-          <div class="reviews__detox__body__text">
-            <span>Дата 12.10.2020</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Metus, luctus nibh massa maecenas morbi id
-              felis. In nunc at
-              tristique amet maecenas turpis nibh non eu. Nunc, sed blandit erat eu ac porttitor turpis lectus. Est
-              felis, gravida
-              augue adipiscing dignissim fusce vitae imperdiet quam. Metus, luctus nibh massa maecenas morbi id felis.
-              In nunc at
-              tristique amet maecenas turpis nibh non eu. Nunc, sed blandit erat eu ac porttitor turpis lectus.</p>
-          </div>
+
+
+
         </div>
       </div>
 
+
+
+
+
       <div class="add__reviews__detox">
+        <img src="./img/review-bg.png" alt="" class="review-bg">
         <h3 class="h3">Хотите оставить отзыв ?</h3>
         <div class="add__reviews__detox__body">
-          <div class="add__reviews__detox__body__name">
-            <img src="./img/avatar.png" alt="">
-            <input type="text" name="name" id="add__review__detox__input" placeholder="@ Введите ваше имя">
-          </div>
-          <div class="add__reviews__detox__body__text">
+          <form id="addForm">
+            <div class="add__reviews__detox__body__name">
+              <img src="./img/avatar.png" alt="">
+              <input type="text" name="name" id="add__review__detox__input" placeholder="@ Введите ваше имя">
+            </div>
+            <div class="add__reviews__detox__body__text">
 
-            <p>Дата 12.10.2020</p>
-            <input type="text" name="text" id="add__review__detox__text__input" placeholder="Оставьте отзыв">
+              <p>Дата 12.10.2020</p>
+              <input type="text" name="text" id="add__review__detox__text__input" placeholder="Оставьте отзыв">
 
-          </div>
-          <div class=" info__section__text__button text-center">
-            <button type="button" class="btn btn-lg">Отправить</button>
-          </div>
+            </div>
+            <div id="detox-button" class="text-center">
+              <button type="submit" class="btn btn-warning">Оставить отзыв</button>
+            </div>
         </div>
+        </form>
+
+
+
+
       </div>
     </section>
 

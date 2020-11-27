@@ -12,10 +12,6 @@ p {
   padding: 0;
   color: black;
 }
-.shipping__detox__image {
-    text-align: center;
-    margin: auto;
-}
 
 .nav {
   font-family: "Gilroy";
@@ -67,6 +63,7 @@ p {
   color: #00b107;
   padding-left: 20px;
 }
+
 
 /* Header__clock */
 
@@ -131,6 +128,15 @@ p {
   line-height: 70px;
   letter-spacing: -2px;
 }
+#header-bg{
+  position: relative;
+}
+.header-bg{
+  position: absolute;
+  width: 100%;
+  top: 70%;
+  left: -4%;
+}
 .info__section__text__body p:nth-child(1) {
   margin-top: 50px;
   font-family: "Gilroy";
@@ -148,6 +154,22 @@ p {
   font-size: 24px;
   line-height: 25px;
   letter-spacing: -1px;
+}
+.info__detox__section__title h3{
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 70px;
+}
+#info-section{
+  position: relative;
+}
+.info-section-bg{
+  position: absolute;
+  left: -4%;
+    top: -5%;
+    width: 110%;
 }
 /* Info - Image */
 
@@ -246,102 +268,80 @@ p {
 }
 
 /* By Detox */
-.by__detox h3 {
-  margin-top: 150px;
-  font-family: "Gilroy";
-  font-style: normal;
+#by-detox h3{
   font-weight: 900;
-  font-size: 48px;
-  line-height: 70px;
+font-size: 48px;
+margin: 80px  0 80px;
 }
+.detox-from-img{
+  width: max-content;
+}
+.detox-form-by{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#phone, #name{
+	padding: 30px 20px;
+	border: 1px solid #00B107;
+	color: #D7D7D7;
+	font-weight: bold;
+	border-radius: 10px;
 
-.slider{
-  position: relative;
-  
-
 }
-.next__slider{
- top: 35%;
- left: 75%;
- position: absolute;
+.row{
+   margin-top: 30px;
 }
-.next span{
-  font-size: 65px;
-  color: #249774;
-}
-.prev__slider{
-  top: 35%;
-  right: 85%;
-  position: absolute;
-}
-.prev span{
- font-size: 65px;
- color: #249774;
-}
-.by__detox__flex {
-  display: flex;
-  margin-top: 78px;
-}
-.by__detox__body__top {
-  display: flex;
-}
-.by__detox__input {
-  display: flex;
-  justify-content: space-between;
-}
-.by__detox__form {
-  margin-top: 50px;
-}
-.by__detox__input .by__detox__input__name:nth-child(2) {
-  margin-left: 60px;
-}
-.by__detox__input .by__detox__input__name:nth-child(1) {
+.detox-left{
   margin-left: 20px;
+ 
 }
-.by__detox__image img {
-  width: 90%;
+.img-content img{
+  width: 100%
 }
-.by__detox__image p {
-  letter-spacing: -1px;
-  width: 150%;
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 25px;
-}
-.by__detox__input__name label {
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 25px;
-
+.col label{
   text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  
+ 
 }
-.by__detox__form input {
-  border: 1px solid #000;
-  padding: 15px 70px 20px 20px;
-  background: #ffffff;
-  border: 0.5px solid #00b107;
-  box-sizing: border-box;
-  border-radius: 10px;
+#detox-button{
+	
+	margin-top: 20px;
+	text-align: end
 }
-.by__detox__form input::placeholder {
+#detox-button button{
+ background-color:#fcd95a;
+	font-size: 24px;
+	font-weight: bold;
+	width: 50%;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.slider{
+	position: relative;
+}
+.slider img{
+	width: 70%;
+}
+.slider p{
   font-weight: 900;
-  font-size: 15px;
-  line-height: 25px;
-
-  color: #d7d7d7;
+  font-size: 17px;
+line-height: 24px;
+margin-top: 10px;
 }
-.by__detox__form input[type="tel"] {
-  font-weight: 900;
-  font-size: 15px;
-  line-height: 25px;
 
-  color: #d7d7d7;
+.next-prev{
+  display: flex;
+  justify-content: center;
+	align-items: center;
 }
-.info__section__text__button:nth-child(2) {
-  text-align: end;
-  margin-top: 90px;
+.next-prev i{
+	color: #00B107;
+	font-size: 30px;
+	cursor: pointer;
 }
 
 /* Detox Bar */
@@ -394,6 +394,7 @@ p {
 /* Detox ingredient */
 .our__ingredient {
   margin-top: 220px;
+  position: relative;
 }
 .our__ingredient__flex {
   display: flex;
@@ -416,6 +417,7 @@ p {
   line-height: 20px;
   margin-top: 20px;
 }
+
 /* Gallery Instagram */
 .instagram__detox h3 {
   margin-top: 200px;
@@ -465,6 +467,7 @@ p {
   color: #303030;
   text-decoration: none;
 }
+
 /* Shipping Detox */
 .shipping__detox {
   position: relative;
@@ -472,7 +475,7 @@ p {
 .shipping__detox_bg {
   position: absolute;
   top: -100%;
-  left: -33%;
+  left: -7%;
 }
 
 .shipping__detox__flex {
@@ -542,7 +545,15 @@ p {
 
   color: #249774;
 }
-
+.add__reviews__detox{
+  position: relative;
+}
+.review-bg{
+  position: absolute;
+  left: 12%;
+  top: -12%;
+  
+}
 .reviews__detox__body__text {
   margin-top: 70px;
   box-shadow: 0 0 10px rgb(44 177 0 / 60%);
@@ -681,8 +692,8 @@ footer {
     right: -6%;
   }
   .shipping__detox_bg {
-    width: 135%;
-    top: -79%;
+    width: 112%;
+    top: -185%;
   }
   .detox-none{
     display: none;
@@ -692,6 +703,12 @@ footer {
   }
 }
 @media screen and (max-width: 1199px) {
+  .prev__slider{
+    top: 23%;
+  }
+  .next__slider{
+    top: 23%;
+  }
   .header__navbar__ul li a {
     font-size: 13px;
   }
@@ -709,8 +726,19 @@ footer {
     font-size: 12px;
   }
   .info__section__text__title h2 {
-    font-size: 40px;
+    font-size: 35px;
     line-height: 50px;
+  }
+  .info__section__text__body p:nth-child(1) {
+    font-size: 21px;
+  }
+  .info__section__text__body p:nth-child(2) {
+    font-size: 21px;
+  }
+  .info-section-bg{
+    left: -8%;
+    top: -3%;
+    width: 113%;
   }
   .info__section__image img {
     width: 64%;
@@ -718,33 +746,18 @@ footer {
     right: -4%;
   }
   .shipping__detox_bg {
-    left: -53%;
-    width: 156%;
-    top: -70%;
+    left: -6%;
+    width: 110%;
+    top: -159%;
+  }
+  .review-bg{
+    left: 5%;
+    top: -11%;
   }
   .our__ingredient__image img {
     width: 90%;
   }
-  .by__detox__body__card img {
-    width: 90%;
-  }
-
-  .by__detox__input .by__detox__input__name:nth-child(2) {
-    margin-left: 10px;
-  }
-  .by__detox__form input::placeholder {
-    font-weight: 900;
-    font-size: 13px;
-    line-height: 25px;
-
-    color: #d7d7d7;
-  }
-  .by__detox__form input[type="tel"] {
-    font-size: 13px;
-  }
-  .by__detox__image p {
-    margin-top: 80px;
-  }
+  
   .detox__bar__image img {
     width: 95%;
   }
@@ -773,6 +786,12 @@ footer {
   .nav{
     align-items: end;
   }
+  .prev__slider{
+    top: 18%;
+  }
+  .next__slider{
+    top: 18%;
+  }
   .menuNav span{
     width: 50px;
     border: 2px solid #00B03C;
@@ -798,6 +817,13 @@ footer {
   .header__logo__text,
   .header__logo__text span {
     font-size: 11px;
+  }
+  .info-section-bg{
+    left: -7%;
+    top: 2%;
+  }
+  .header-bg{
+    top: 50%;
   }
   .header__navbar__ul li a.active {
     padding-left: 0;
@@ -880,14 +906,28 @@ footer {
   .by__detox__input__name label {
     font-size: 17px;
   }
+  #detox-button button{
+    font-size: 15px;
+  }
+  .img-content img{
+    width: 100%
+  }
+  .col label{
+    font-size: 15px;
+  }
   .by__detox__form input {
     padding: 15px 14px 20px 20px;
+  }
+  .review-bg{
+    left: 3%;
+    width: 100%;
+    top: -10%;
   }
   .info__section__text__button:nth-child(2) {
     margin-top: 70px;
   }
   .shipping__detox_bg {
-    top: -40%;
+    display: none;
   }
   .reviews__detox__body__name {
     width: 350px;
@@ -919,10 +959,12 @@ footer {
   .nav{
     align-items: center;
   }
+  .img-content img{
+    width: 100%
+  }
   .header__phone{
     display: none;
   }
-  
   .menu-none-detox{
     display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -944,6 +986,10 @@ footer {
   }
   .info__section__text__title h2{
     font-size: 21px;
+  }
+  .info-section-bg{
+    left: -6%;
+    top: 7%;
   }
   .info__section__text__body p:nth-child(1){
     font-size: 16px;
@@ -1045,53 +1091,18 @@ footer {
   .nth_3 {
     margin-top: 20px;
   }
-  .by__detox h3{
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: 20px;
-    
-  }
-  .by__detox__flex{
-    display: block;
-    margin-top: 20px;
-  }
-  .by__detox__right{
-    display: none;
-  }
-  .detox-block{
-    display: block;
-  }
-  .detox-block button{
-    display: none;
-  }
-  .by__detox__input__name{
-    text-align: center;
-  }
-  .by__detox__input .by__detox__input__name:nth-child(1){
-    margin-left: 0;
-  }
-  .by__detox__form input{
-    width: 160px;
-    padding: 15px 14px 20px 10px;
-  }
+ 
 .slider_item{
   text-align: center;
 }
 .prev__slider{
-  top: 25%;
+  top: 30%;
 }
 .next__slider {
-  top: 25%;
+  top: 30%;
   left: 85%;
 }
-.by__detox__image p{
-  letter-spacing: 0px;
-  line-height: 20px;
-  width: 100%;
-  margin-top: 30px;
-  font-size: 15px;
-  font-size: 11px;
-}
+
 .our__ingredient{
   margin-top: 20px;
 }
@@ -1100,6 +1111,7 @@ footer {
 }
 .our__ingredient__image p{
   font-size: 17px;
+  margin-bottom: 20px;
 }
 .our__ingredient__flex{
   display: block;
@@ -1117,6 +1129,9 @@ footer {
 }
 .detox__image__gallery img{
   width: 100%;
+}
+.our__ingredient__image img{
+  width: 30%;
 }
 .shipping__detox__flex{
   display: grid;
@@ -1138,6 +1153,11 @@ footer {
 .reviews__detox__body__name p{
   font-size: 11px;
   padding-left: 9px;
+}
+.review-bg{
+  left: 18%;
+  width: 65%;
+  top: -2%;
 }
 .reviews__detox__body__text {
   margin-top: 30px;
