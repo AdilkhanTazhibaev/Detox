@@ -5,8 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Detox</title>
@@ -24,12 +23,8 @@
           <div class="header__logo__img">
             <svg width="38" height="47" viewBox="0 0 38 47" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M28 6.26208L18 44.1491H20L30 7.3145L37 3.10483L36 1L28 6.26208Z" stroke="#00B03C" />
-              <path
-                d="M10.7241 24.1532L9 13.629H32L30.6207 24.1532M10.7241 24.1532L14 44.1491C16.6667 45.2015 23.2 46.6749 28 44.1491L30.6207 24.1532M10.7241 24.1532H30.6207"
-                stroke="#00B03C" />
-              <path
-                d="M17.5 13.629C17.5 18.6083 13.6707 22.6007 9 22.6007C4.32934 22.6007 0.5 18.6083 0.5 13.629C0.5 8.64967 4.32934 4.65726 9 4.65726C13.6707 4.65726 17.5 8.64967 17.5 13.629Z"
-                stroke="#00B03C" />
+              <path d="M10.7241 24.1532L9 13.629H32L30.6207 24.1532M10.7241 24.1532L14 44.1491C16.6667 45.2015 23.2 46.6749 28 44.1491L30.6207 24.1532M10.7241 24.1532H30.6207" stroke="#00B03C" />
+              <path d="M17.5 13.629C17.5 18.6083 13.6707 22.6007 9 22.6007C4.32934 22.6007 0.5 18.6083 0.5 13.629C0.5 8.64967 4.32934 4.65726 9 4.65726C13.6707 4.65726 17.5 8.64967 17.5 13.629Z" stroke="#00B03C" />
               <ellipse cx="18" cy="29.4152" rx="2" ry="2.10483" fill="#00B107" />
               <ellipse cx="26" cy="37.8346" rx="2" ry="2.10483" fill="#00B107" />
               <ellipse cx="16" cy="35.7297" rx="2" ry="2.10483" fill="#00B107" />
@@ -42,33 +37,25 @@
         </div>
         <div class="header__navbar">
           <ul class="header__navbar__ul">
-            <li> <a href="#" class="active">О DETOX</a></li>
-            <li> <a href="#">Почему мы ?</a></li>
-            <li> <a href="">Заказать</a></li>
-            <li> <a href="">Доставка</a></li>
-            <li> <a href="">Отзывы</a></li>
-            <li> <a href="">Контакты</a> </li>
+            <li> <a href="#" class="active link-menu">О DETOX</a></li>
+            <li> <a href="#detox-info" class="link-menu">Почему мы ?</a></li>
+            <li> <a href="#by-detox" class="link-menu">Заказать</a></li>
+            <li> <a href="#shipping-detox" class="link-menu">Доставка</a></li>
+            <li> <a href="#review-bg" class="link-menu">Отзывы</a></li>
+            <li> <a href="#contact-detox" class="link-menu">Контакты</a> </li>
           </ul>
         </div>
         <div class="header__clock">
           <div class="header__clock__logo">
             <span class="material-icons">
-              query_builder
+             
             </span>
-            <div class="header__clock__text">
-              <span><strong>12:00 - 20:00</strong>
-                <p>Режим работы</p>
-              </span>
-            </div>
           </div>
         </div>
         <div class="header__phone">
           <div class="header__phone__logo">
-            <span class="material-icons">
-              call
-            </span>
             <div class="header__phone__text">
-              <span>+7 705 782 60 77</span>
+              <span>+7 702 500 88 97</span>
               <p>Наш номер телефона</p>
             </div>
           </div>
@@ -98,14 +85,14 @@
             <p>Сделайте свой первый <br class="br"> заказ и получи скадку 10%</p>
           </div>
           <div class="info__section__text__button">
-            <button type="button" class="btn btn-lg">Сделать заказ</button>
+            <a href="https://wa.me/77025008897"><button type="button" class="btn btn-lg">Сделать заказ</button></a>
           </div>
         </div>
 
       </div>
     </section>
 
-    <section>
+    <section id="detox-info">
       <div class="detox__section">
         <div class="detox__section__image">
           <img src="./img/2 1.png" alt="">
@@ -245,10 +232,10 @@
                 <img src="./img/by__card.png" alt="">
               </div>
               <div class="img-content">
-                <img src="./img/by__card.png" alt="">
+                <img src="./img/by__card-2.png" alt="">
               </div>
               <div class="img-content">
-                <img src="./img/by__card.png" alt="">
+                <img src="./img/by__card-3.png" alt="">
               </div>
             </div>
             <div class="row">
@@ -260,17 +247,29 @@
                     <div class="row">
                       <div class="col">
                         <label>ваше имя</label>
-                        <input id="name" name="name" type="text" class="form-control" placeholder="Введите Ваше имя">
+                        <input id="name" name="name" required type="text" class="form-control" placeholder="Введите Ваше имя">
                       </div>
                       <div class="col">
                         <label>номер телефона</label>
-                        <input id="phone" name="phone" type="tel" class="form-control" placeholder="+7(___)___-__-__">
+                        <input id="phone" name="phone" required type="tel" class="form-control" placeholder="+7(___)___-__-__">
                       </div>
                     </div>
                     <div id="detox-button">
                       <button id="btn-sumbit" type="submit" class="btn btn-warning">Сделать заказ</button>
                     </div>
                   </form>
+
+                  <div class="modal modal-detox" tabindex="-1" role="dialog">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-body modal-detox-body text-center">
+                          <h4>Спасибо За Заказ</h4>
+                          <p>Скоро с вами свяжется наш менеджер</p>
+                          <img src="./img/check.png" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -293,7 +292,7 @@
         <div class="our__ingredient__flex">
           <div class="our__ingredient__image">
             <img src="./img/ingredient.png" alt="">
-            <p>Свежая зелень</p>
+            <p>Сочные фрукты</p>
           </div>
           <div class="our__ingredient__image">
             <img src="./img/ingredient-2.png" alt="">
@@ -301,7 +300,7 @@
           </div>
           <div class="our__ingredient__image">
             <img src="./img/ingredient-3.png" alt="">
-            <p>Сочные фрукты</p>
+            <p>Свежая зелень</p>
           </div>
         </div>
       </div>
@@ -325,14 +324,14 @@
 
           <div class="detox__instagram__logo">
             <img src="./img/instagram-logo.png" alt="">
-            <a href="">detox_bar_ast</a>
+            <a href="https://instagram.com/detox_bar_ast?igshid=1qbykfnom1pkl">detox_bar_ast</a>
           </div>
 
       </div>
 
     </section>
 
-    <section>
+    <section id="shipping-detox">
       <div class="shipping__detox">
         <img class="shipping__detox_bg" src="./img/instagram-bg.png" alt="">
 
@@ -346,15 +345,15 @@
           <div class="shipping__detox__image">
             <img src="./img/shipping_2.png" alt="">
             <h5>И мы перезвоним</h5>
-            <p>Как только вы оставете заявку мы подсчитаем сумму, и наш менеджер перезвонит вам для <b>в течении 5
-                минут</b>
-              уточнения деталей
-              заказа</p>
+            <p>
+                
+                Как только вы оставите заявку , мы подсчитаем сумму и наш менеджер  <b>в течении  5 минут</b>  перезвонит для уточнения деталей заказа
+        </p>
           </div>
           <div class="shipping__detox__image">
             <img src="./img/shipping_3.png" alt="">
             <h5>Затем доставим</h5>
-            <p>Мы делаем доставку вечером, так как готовим наш продукт сразу после закза по <b>индивидуальной</b> к нему
+            <p>Мы делаем доставку вечером, так как готовим наш продукт сразу после заказа по <b>индивидуальной</b>
               программе</p>
           </div>
           <div class="shipping__detox__image">
@@ -387,19 +386,24 @@
         <div class="add__reviews__detox__body">
           <form id="addForm">
             <div class="add__reviews__detox__body__name">
-              <img src="./img/avatar.png" alt="">
-              <input type="text" name="name" id="add__review__detox__input" placeholder="@ Введите ваше имя">
+              <img src="./img/add.png" alt="">
+              <input type="text" name="name" id="add__review__detox__input" required placeholder="@ Введите ваше имя">
             </div>
             <div class="add__reviews__detox__body__text">
 
-              <p>Дата 12.10.2020</p>
-              <input type="text" name="text" id="add__review__detox__text__input" placeholder="Оставьте отзыв">
+              <p>
+                <?php echo date("j. n. Y"); ?>
+              </p>
+              <input type="text" name="text" id="add__review__detox__text__input" required placeholder="Оставьте отзыв">
 
             </div>
             <div id="detox-button" class="text-center">
               <button type="submit" class="btn btn-warning">Оставить отзыв</button>
             </div>
         </div>
+
+
+
         </form>
 
 
@@ -408,7 +412,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="contact-detox">
       <div class="detox__contact">
         <h3 class="h3">Наши контакты</h3>
         <div class="detox__contact__text d-flex">
@@ -425,33 +429,22 @@
             </div>
           </div>
 
-          <div class="header__clock">
-            <div class="header__clock__logo">
-              <span class="material-icons">
-                query_builder
-              </span>
-              <div class="header__clock__text">
-                <span><strong>12:00 - 20:00</strong>
-
-                </span>
-              </div>
-            </div>
+          <div class="contacts__social">
+            <a href=""><img src="img/instagram-contacts.png" alt=""></a>
+            <a href=""><img src="./img/whatsapp.png" alt=""></a>
           </div>
           <div class="header__phone__logo">
             <span class="material-icons">
               call
             </span>
             <div class="header__phone__text">
-              <span>+7 705 782 60 77</span>
-
+              <span>+7 702 500 88 97</span>
+ 
             </div>
 
           </div>
         </div>
-        <div class="contacts__social">
-          <a href=""><img src="img/instagram-contacts.png" alt=""></a>
-          <a href=""><img src="./img/whatsapp.png" alt=""></a>
-        </div>
+
       </div>
     </section>
 
@@ -463,12 +456,8 @@
           <div class="header__logo__img">
             <svg width="38" height="47" viewBox="0 0 38 47" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M28 6.26208L18 44.1491H20L30 7.3145L37 3.10483L36 1L28 6.26208Z" stroke="#00B03C" />
-              <path
-                d="M10.7241 24.1532L9 13.629H32L30.6207 24.1532M10.7241 24.1532L14 44.1491C16.6667 45.2015 23.2 46.6749 28 44.1491L30.6207 24.1532M10.7241 24.1532H30.6207"
-                stroke="#00B03C" />
-              <path
-                d="M17.5 13.629C17.5 18.6083 13.6707 22.6007 9 22.6007C4.32934 22.6007 0.5 18.6083 0.5 13.629C0.5 8.64967 4.32934 4.65726 9 4.65726C13.6707 4.65726 17.5 8.64967 17.5 13.629Z"
-                stroke="#00B03C" />
+              <path d="M10.7241 24.1532L9 13.629H32L30.6207 24.1532M10.7241 24.1532L14 44.1491C16.6667 45.2015 23.2 46.6749 28 44.1491L30.6207 24.1532M10.7241 24.1532H30.6207" stroke="#00B03C" />
+              <path d="M17.5 13.629C17.5 18.6083 13.6707 22.6007 9 22.6007C4.32934 22.6007 0.5 18.6083 0.5 13.629C0.5 8.64967 4.32934 4.65726 9 4.65726C13.6707 4.65726 17.5 8.64967 17.5 13.629Z" stroke="#00B03C" />
               <ellipse cx="18" cy="29.4152" rx="2" ry="2.10483" fill="#00B107" />
               <ellipse cx="26" cy="37.8346" rx="2" ry="2.10483" fill="#00B107" />
               <ellipse cx="16" cy="35.7297" rx="2" ry="2.10483" fill="#00B107" />
@@ -496,6 +485,7 @@
 
     </div>
   </footer>
+
   <script src="main.js"></script>
 </body>
 
