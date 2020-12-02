@@ -2,7 +2,24 @@ window.addEventListener('DOMContentLoaded', () => {
   //Burger Menu
   const burger = document.querySelector('.menuNav');
   const menu = document.querySelector('.header__navbar__ul');
-  //menu.style.display = 'none';
+  const linkMenu = menu.querySelectorAll("a[href*='#']")
+  
+
+  linkMenu.forEach(item=>{
+    item.addEventListener('click', (event)=>{
+      event.preventDefault()
+      const linkId = item.getAttribute('href')
+      document.querySelector('' + linkId).scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      })
+    })
+  })
+
+
+ 
+
+
 
   burger.addEventListener('click', () => {
     if (menu.style.display === 'none') {
@@ -32,7 +49,7 @@ window.addEventListener('DOMContentLoaded', () => {
     });
     img[imgItem - 1].style.display = 'block';
     state['Day'] = imgItem;
-    console.log(state);
+    
   }
   showSlider(imgItem);
 
@@ -43,12 +60,12 @@ window.addEventListener('DOMContentLoaded', () => {
   nextSlider.addEventListener('click', (e) => {
     e.preventDefault();
     nextSliderShow(1);
-    console.log('next');
+    
   });
   prevSlider.addEventListener('click', (e) => {
     e.preventDefault();
     nextSliderShow(-1);
-    console.log('prev');
+    
   });
   // Обработка формы
 
@@ -65,14 +82,21 @@ window.addEventListener('DOMContentLoaded', () => {
   });
 
   // Отправка данных на почту
-  const btnSumbit = document.querySelector('#btn-sumbit');
+  
   const formMail = document.querySelector('#form-Submit');
 
-  console.log(btnSumbit, formMail);
+ 
+  const btn = document.querySelector('#add')
+		const showTime = () =>{
+			const modal = document.querySelector('.modal') 	
+				modal.style.display = 'block'
+				setTimeout(()=>{
+				modal.style.display  = 'none'
+			},3000)
+		}
 
   formMail.addEventListener('submit', async (event) => {
-    console.log(state);
-    console.log('click');
+    
     event.preventDefault();
     let dataSend = new FormData(formMail);
     for (let key in state) {
@@ -84,16 +108,23 @@ window.addEventListener('DOMContentLoaded', () => {
     });
     //console.log(await data.text());
     let result = await data.text();
+    showTime()
 
-    console.log(result);
+   
   });
 
   //GET Reviews
   fetch('server/reviews.php')
     .then((response) => response.json())
     .then((data) => {
-      console.log(data);
-      data.forEach((item) => {
+      
+       let sotrDate = data.sort(function(a,b){
+         
+        // Turn your strings into dates, and then subtract them
+        // to get a value that is either negative, positive, or zero.
+        return b.id - a.id
+      });
+      sotrDate.forEach((item) => {
         let html = document.querySelector('.reviews__detox__body');
         let reviewsName = document.createElement('div');
         let reviewsText = document.createElement('div');
@@ -101,15 +132,18 @@ window.addEventListener('DOMContentLoaded', () => {
         reviewsText.classList.add('reviews__detox__body__text');
 
         reviewsName.innerHTML = `
-            <img src="./img/avatar.png">
+            <img src="./img/add.png">
             <p>${item.name}</p>
         `;
         reviewsText.innerHTML = `
-            <span>Дата 12.10.2020</span>
+            <span>${item.data_submit}</span>
             <p>${item.text}</p>
           `;
         html.appendChild(reviewsName);
         html.appendChild(reviewsText);
       });
     });
+
+    
+    
 });
