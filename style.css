@@ -1217,6 +1217,9 @@ footer {
   margin-top: 5px;
   font-size: 11px;
 }
+#detox-button{
+  text-align: center;
+}
 .add__reviews__detox h3{
   margin-top: 50px;
   color: #249774;
