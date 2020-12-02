@@ -343,7 +343,23 @@ margin-top: 10px;
 	font-size: 30px;
 	cursor: pointer;
 }
+.modal-detox{/* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 
+}
+.modal-detox-body h4{
+	color: #00B107;
+	font-weight: 900;
+font-size: 35px;
+line-height: 40px;
+}
+.modal-detox-body p{
+	color: #249774;
+	font-weight: 900;
+font-size: 17px;
+line-height: 40px;
+}
 /* Detox Bar */
 .detox__bar {
   margin-top: 200px;
@@ -479,8 +495,8 @@ margin-top: 10px;
 }
 
 .shipping__detox__flex {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .shipping__detox h3 {
@@ -660,7 +676,7 @@ margin-top: 10px;
 }
 .shipping__detox__image {
   text-align: center;
-  margin: auto;
+  
 }
 .contacts__social {
   text-align: center;
@@ -1034,6 +1050,9 @@ footer {
     text-align: center;
     margin: -50px 0 35px 0;
   }
+  #detox-button button{
+    font-size: 13px;
+  }
   .info__detox__section__body{
     margin-bottom: 10px;
   }
@@ -1088,6 +1107,12 @@ footer {
     width: 60%;
     margin: 0 auto;
   }
+  #by-detox h3{
+    font-weight: bold;
+    color: #249774;
+    font-size: 20px;
+    text-align: center;
+  }
   .nth_3 {
     margin-top: 20px;
   }
@@ -1106,8 +1131,15 @@ footer {
 .our__ingredient{
   margin-top: 20px;
 }
+.contacts__social{
+  display: flex;
+}
 .our__ingredient h3{
     font-size: 20px;
+    color: #249774;
+}
+.contacts__social img{
+  width: 30px;
 }
 .our__ingredient__image p{
   font-size: 17px;
@@ -1119,6 +1151,7 @@ footer {
 .instagram__detox h3{
   margin-top: 50px;
   font-size: 20px;
+  color: #249774;
 }
 .detox__gallery__instagram{
   display: block;
@@ -1142,7 +1175,17 @@ footer {
 }
 .reviews__detox h3{
   margin-top: 50px;
+  color: #249774;
   font-size: 20px;
+}
+.reviews__detox__body__text span{
+    font-size: 10px;
+}
+.shipping__detox h3{
+  font-weight: bold;
+  color: #249774;
+  font-size: 20px;
+  text-align: center;
 }
 .reviews__detox__body__name{
   width: 35%;
@@ -1159,9 +1202,15 @@ footer {
   width: 65%;
   top: -2%;
 }
+.col label{
+  font-size: 11px;
+}
+.slider p{
+  font-size: 12px;
+}
 .reviews__detox__body__text {
   margin-top: 30px;
-  padding: 24px 7px 23px 14px;
+  padding: 8px 7px 23px 14px;
 }
 .reviews__detox__body__text p {
   line-height: 17px;
@@ -1170,7 +1219,14 @@ footer {
 }
 .add__reviews__detox h3{
   margin-top: 50px;
+  color: #249774;
   font-size: 20px;
+}
+.shipping__detox__image{
+  margin: unset;
+}
+.shipping__detox__image p{
+  width: 90%;
 }
 .add__reviews__detox__body__name{
   width: 80%;
@@ -1179,7 +1235,7 @@ footer {
   width: 17%;
 }
 #add__review__detox__input {
-  font-size: 13px;
+  font-size: 11px;
   
 }
 .add__reviews__detox__body__text p{
@@ -1197,6 +1253,7 @@ footer {
 .detox__contact h3{
   margin-top: 50px;
   font-size: 20px;
+  color: #249774;
 }
 .detox__contact__text{
   text-align: center;
