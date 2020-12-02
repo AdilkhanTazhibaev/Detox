@@ -1250,6 +1250,9 @@ footer {
   padding: 15px 15px 15px 15px;
   height: 150px;
 }
+.shipping__detox__image h5{
+  font-size: 13px;
+}
 .detox__contact h3{
   margin-top: 50px;
   font-size: 20px;

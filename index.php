@@ -48,7 +48,7 @@
         <div class="header__clock">
           <div class="header__clock__logo">
             <span class="material-icons">
-             
+
             </span>
           </div>
         </div>
@@ -332,6 +332,7 @@
     </section>
 
     <section id="shipping-detox">
+
       <div class="shipping__detox">
         <img class="shipping__detox_bg" src="./img/instagram-bg.png" alt="">
 
@@ -346,9 +347,9 @@
             <img src="./img/shipping_2.png" alt="">
             <h5>И мы перезвоним</h5>
             <p>
-                
-                Как только вы оставите заявку , мы подсчитаем сумму и наш менеджер  <b>в течении  5 минут</b>  перезвонит для уточнения деталей заказа
-        </p>
+
+              Как только вы оставите заявку , мы подсчитаем сумму и наш менеджер <b>в течении 5 минут</b> перезвонит для уточнения деталей заказа
+            </p>
           </div>
           <div class="shipping__detox__image">
             <img src="./img/shipping_3.png" alt="">
@@ -439,7 +440,7 @@
             </span>
             <div class="header__phone__text">
               <span>+7 702 500 88 97</span>
- 
+
             </div>
 
           </div>
